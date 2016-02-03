@@ -1,6 +1,7 @@
 # xdust
 A dust template engine for express framework.
-it can be use to fetch templates from multiple sources like - fileSystem (templates defined under views folder),
+it can be use to fetch templates from multiple sources like - 
+fileSystem (templates defined under views folder),
 databases (Mongo, MySql) and any other place. 
 
 
@@ -16,7 +17,7 @@ databases (Mongo, MySql) and any other place.
 
 ## Extend
 
- `xDust(express_app, reader, sources);`
+    xDust(express_app, reader, sources);
 
 > Example reading from mongodb
 
@@ -30,11 +31,12 @@ databases (Mongo, MySql) and any other place.
  
 > Defining Reader for db type source
 
-     class Reader{
-	   dbRead(fullPath, fileName, cb){ 
-	     Mongo.findOne({},function(err,doc){ 
-	 		cb(err,doc.template.toString());   
-	 	});  
-	   }
-	 }
+     
+     var Reader = {};
+     Reader.dbRead = (fullpath, filename, cb) => {
+         //get template from 
+         cb(null, 'my name is {name}');
+     }
+     module.exports = Reader;
+
  
