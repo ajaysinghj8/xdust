@@ -1,5 +1,5 @@
 {
-  "name": "dust-renderer",
+  "name": "xdust",
   "version": "0.0.1",
   "description": "Dust template renderer using nodejs.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CoderAjay/dust-renderer.git"
+    "url": "git+https://github.com/CoderAjay/xdust.git"
   },
   "keywords": [
     "Dust",
@@ -21,7 +21,11 @@
   "author": "Ajay Singh <meajaysingh@hotmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CoderAjay/dust-renderer/issues"
+    "url": "https://github.com/CoderAjay/xdust/issues"
   },
-  "homepage": "https://github.com/CoderAjay/dust-renderer#readme"
+  "homepage": "https://github.com/CoderAjay/xdust#readme",
+  "dependencies": {
+   
+  },
+  "devDependencies": {}
 }
