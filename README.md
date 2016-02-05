@@ -10,7 +10,7 @@ databases (Mongo, MySql) and any other place.
 > Requiring using common js pattern.
 
     var xDust = require('xdust');
-    app.engine('dust', xDust(app);
+    app.engine('dust', xDust(app));
     app.set('view engine', 'dust');
  
 > Here app is an Express Application.
@@ -40,3 +40,10 @@ databases (Mongo, MySql) and any other place.
      module.exports = Reader;
 
  
+## TODOS
+
+* Cache
+  * Caching of compiled template inside dust
+  * Caching of template strings read from sources
+* Performance
+* Tests
