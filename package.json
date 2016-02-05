@@ -1,6 +1,6 @@
 {
   "name": "xdust",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": false,
   "description": "Dust template renderer using nodejs.",
   "main": "index.js",
@@ -25,8 +25,11 @@
     "url": "https://github.com/CoderAjay/xdust/issues"
   },
   "homepage": "https://github.com/CoderAjay/xdust#readme",
-  "dependencies": {
-
-  },
-  "devDependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "dustjs-linkedin": "^2.7.2",
+    "express": "^4.13.4",
+    "mocha": "^2.4.5",
+    "should": "^8.2.1"
+  }
 }
