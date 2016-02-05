@@ -2,4 +2,8 @@ node_modules/
 node_modules/*
 temp/
 temp/*
+tests/
+tests/*
+.vscode
+.vscode/*
 jsconfig.json
