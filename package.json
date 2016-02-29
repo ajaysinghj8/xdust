@@ -25,7 +25,9 @@
     "url": "https://github.com/CoderAjay/xdust/issues"
   },
   "homepage": "https://github.com/CoderAjay/xdust#readme",
-  "dependencies": {},
+  "dependencies": {
+    "dustjs-linkedin": "^2.7.2"
+  },
   "devDependencies": {
     "dustjs-linkedin": "^2.7.2",
     "express": "^4.13.4",
