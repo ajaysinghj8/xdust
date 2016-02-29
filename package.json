@@ -1,6 +1,6 @@
 {
   "name": "xdust",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "private": false,
   "description": "Dust template renderer using nodejs.",
   "main": "index.js",
