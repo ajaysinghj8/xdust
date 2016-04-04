@@ -1,4 +1,4 @@
-# xdust
+# xdust (WIP)
 A dust template engine for express framework.
 it can be use to fetch templates from multiple sources like - 
 fileSystem (templates defined under views folder),
@@ -10,7 +10,7 @@ databases (Mongo, MySql) and any other place.
 > Requiring using common js pattern.
 
     var xDust = require('xdust');
-    app.engine('dust', xDust(app).__express);
+    app.engine('dust', xDust(app).__express());
     app.set('view engine', 'dust');
  
 > Here app is an Express Application.
@@ -31,7 +31,7 @@ databases (Mongo, MySql) and any other place.
             });
         }
       };   
-	 app.engine('dust', xDust(app, [mongoReader,...]).__express);
+	 app.engine('dust', xDust(app, [mongoReader,...]).__express());
      app.set('view engine', 'dust'); 
   
 >  Define the source as db.
